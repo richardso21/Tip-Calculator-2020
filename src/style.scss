@@ -1,4 +1,24 @@
+html,
 body {
-  background-color: blue;
-  height: 95vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%; //makes font size 10px
+}
+
+h1 {
+  font-size: 5rem; //px, rem, 1rem= 10px, 1.3rem = 13px, em is relative to parent container, vw = viewport width or vh = viewport height
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  height: 90vh;
+  margin: 3rem auto;
+  align-items: center;
+  background-color: #282f33;
+  text-align: center;
+}
+.form-text {
+  display: block; //make block level element take up whole line
 }
